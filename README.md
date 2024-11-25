@@ -41,3 +41,33 @@ Install the Seurat package in R using the following commands, or visit the offic
 ```r
 install.packages("Seurat")
 ```
+
+### Harmony Package
+
+```r
+install.packages("harmony")
+```
+
+### clusterProfiler Package
+
+```r
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+BiocManager::install("clusterProfiler")
+```
+
+### BLASTn
+
+For BLASTn installation, visit the official NCBI BLAST website:
+[BLAST Installation](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/)
+
+---
+
+## Reproducibility
+
+To reproduce the analysis, download the data from GEO (accession: GSE277095) and follow the steps in this pipeline. Ensure all dependencies are installed and configured as described.
+
+
+
+
+
