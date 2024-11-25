@@ -1,12 +1,12 @@
-## Overview
+# Overview
 
 This pipeline processes and analyzes single-cell RNA-seq (scRNA-seq) data using a series of bioinformatics tools, including the Cellranger toolkit, Seurat, Harmony, and others. The workflow is designed to ensure high-quality preprocessing, clustering, dimensionality reduction, and downstream analyses such as differential expression and functional enrichment. The provided code and instructions can reproduce the analysis demonstrated in the study.
 
-## Data
+# Data
 
 The scRNA-seq data analyzed in this pipeline were deposited in the **NCBI Gene Expression Omnibus (GEO)** under the accession number **GSE277095**. These datasets can be used as a demo for reproducing the pipeline results.
 
-## Requirements
+# Requirements
 
 ### System
 - **System architecture**: `x86_64, linux-gnu`
@@ -20,7 +20,7 @@ The scRNA-seq data analyzed in this pipeline were deposited in the **NCBI Gene E
   - clusterProfiler package `v3.1459`  
   - BLASTn `v2.1660`
 
-## Installation
+# Installation
 
 ### Cellranger Toolkit
 
@@ -55,7 +55,7 @@ BiocManager::install("clusterProfiler")
 For BLASTn installation, visit the official NCBI BLAST website:
 [BLAST Installation](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/)
 
-## Reproducibility
+# Reproducibility
 
 To reproduce the analysis, download the data from GEO (accession: GSE277095) and follow the steps in this pipeline. Ensure all dependencies are installed and configured as described.
 
