@@ -1,8 +1,3 @@
----
-title: "README for Single-Cell RNA-seq Analysis Pipeline"
-output: html_document
----
-
 ## Overview
 
 This pipeline processes and analyzes single-cell RNA-seq (scRNA-seq) data using a series of bioinformatics tools, including the Cellranger toolkit, Seurat, Harmony, and others. The workflow is designed to ensure high-quality preprocessing, clustering, dimensionality reduction, and downstream analyses such as differential expression and functional enrichment. The provided code and instructions can reproduce the analysis demonstrated in the study.
